@@ -1,5 +1,5 @@
 
-***CH 7 HW Continuous interaction***;
+***This program runs MANCOVA with an option of running interaction model between Continuous predictors (linear and nonlinear)***;
 **Q1;
 *simple model;
 proc reg data=import;
