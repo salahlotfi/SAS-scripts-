@@ -1,4 +1,4 @@
-****Discriminant Analysis***
+****Discriminant Analysis*** This program runs Discriminant Analysis and compare that with Mancova.
 
 ***Plotting***;
 proc plot data=import1; 
@@ -47,7 +47,7 @@ run;
  run;
  
  *****Predictive Discriminant Analysis***Classification Rate***;
-**This is code it gonna take care of the homogeneity of covariances as well...So, no need for above codes***;
+**This line is gonna take care of the homogeneity of covariances as well...So, no need for above codes***;
 
  ***linear and quadratic classification with resubstitution medthod****;
 
