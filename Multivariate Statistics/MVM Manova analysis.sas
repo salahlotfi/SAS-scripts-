@@ -1,4 +1,4 @@
-******HW4.2 MANOVA but with my own data
+****** MANOVA analysis with my own data
 
 A) First checking Normality testing_Multivariate*****;
 
