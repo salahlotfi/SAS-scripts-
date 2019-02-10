@@ -1,5 +1,5 @@
 
-******HW2 Normality testing_Multivariate*****;
+******To run multivariate normality test and plots*****;
 
 
 **Univariate normality***;
@@ -22,10 +22,4 @@ Proc G3D data=import;
 	scatter math*verbal = pt_ratio/noneedle;
 run;
 
-****running the Q-Q plot and normality test for multivariate data, using multnorm.sas macro***;
-*****************YAyyyyy...I finally ran this...;
-**Frist drap and drop the multnorm macro into the SAS window and run the code: %multnom (data.....);
 
-%include "C:\Users\slotfi\Documents\SASUnivesityEdition\MYFolderNew\multnorm.sas";
-	%multnorm(data=import, var=pt_ratio math verbal, plot=MULT);
-run;
