@@ -1,4 +1,5 @@
-*************HW 10 Categorical and Continuous interaction;
+***To run multiple regression and interaction between a continuous and a categorical predictor variables***
+
 
 proc means data=import chartype mean std min max n vardef=df;
 	var Reading ses;
