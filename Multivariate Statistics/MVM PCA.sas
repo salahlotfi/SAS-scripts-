@@ -1,4 +1,4 @@
-***PCA HW. Pastry data***; To run Principal Component Analysis
+***Pastry data.....To run Principal Component Analysis***
 proc means data=import chartype mean std min max n vardef=df;
 	var oil density crispy fracture hardness;
 run;
