@@ -1,4 +1,4 @@
-***CFA and SEM with my own data***;
+***This script runs Confirmatory Factor Analysis and Structural Equation Modeling my own data***;
 
 proc calis data=import mod residual;
 	var Penn_SWQ_Total1 ACS_Total1 ASRS_Total_1 DASS21_ANX_1
@@ -20,12 +20,6 @@ variance
 cov
 	f1-f2 = ph12;
 run;
-
-
-
-
-
-
 
 
 
