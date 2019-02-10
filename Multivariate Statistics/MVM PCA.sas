@@ -1,4 +1,4 @@
-***PCA HW. Pastry data***;
+***PCA HW. Pastry data***; To run Principal Component Analysis
 proc means data=import chartype mean std min max n vardef=df;
 	var oil density crispy fracture hardness;
 run;
@@ -10,7 +10,7 @@ DASS21_STR_1 STAIT_Total_1 Rumi_Respon_Tot_1 Worry_Domain_Q_total1 Resp_AnxQ_Tot
 run;
 
 ***Wasted so much of my time on this Proc corr. IF you don't specify variables, given the large data set, it does corr for all
-variables, that's why it takes so long to finish it..**;
+**variables, that's why it takes so long to finish it..**;
 
 proc corr data=pcout;
 var prin1 prin2 prin3 prin4;
