@@ -1,4 +1,4 @@
-*************HW 10 Categorical and Continuous interaction;
+************* I wrote this program to run interaction analysis between Categorical and Continuous predictor variables ;
 
 proc means data=import chartype mean std min max n vardef=df;
 	var Reading ses;
