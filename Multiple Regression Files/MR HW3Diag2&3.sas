@@ -1,3 +1,5 @@
+***This programs runs diagnostics test to prepare the data for running multiple regression analysis. **
+
 proc reg data=WORK.IMPORT3 plots (only label) = (RStudentByLeverage DFFITS CooksD DFBETAS);
 	model READING=SES IQ income/vif tol collin ;
 	run;
